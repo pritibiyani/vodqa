@@ -71,7 +71,7 @@
                     <% else %>
                         <p>
                             registrations closed <br />
-                            <small>(sorry, but check out next geek night)</small>
+                            <small>(sorry, but watch out for next vodQA)</small>
                         </p>
                     <% end %>
                 <% end %>
@@ -81,14 +81,14 @@
                 <h6 class="hide-for-small delimiter">&laquo; or &raquo;</h6>
             </div>
             <div class="large-5 columns talk">
-                <% if item[:talk] %>
-                    <a href="<%= @item[:talk] %>" target="_blank" rel="nofollow"
+                <% if item[:present] %>
+                    <a href="<%= @item[:present] %>" target="_blank" rel="nofollow"
                        onclick="ga('send', 'event', 'talk', 'talk')">
                         <h4>Present</h4>
                     </a>
                     <p>
                         to share exciting new stuff <br />
-                        <small>(accepted for this and subsequent geek nights)</small>
+                        <small>(and spread the knowledge!)</small>
                     </p>
                 <% else %>
                     <a href="javascript:void(0)">
