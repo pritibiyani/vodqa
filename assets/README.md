@@ -1,6 +1,6 @@
-# Geek Night Chennai
+# vodQA Pune
 
-an open forum for geeks to connect, discuss &amp; learn latest ideas, technologies and trends in software development
+vodQA is a forum for all testing enthusiasts to get together, connect, share, and collaborate on the latest developments in the world of software testing.
 
 # Development
 
@@ -24,7 +24,7 @@ For ease, there is a Guardfile. You can run `bundle exec guard`, it will keep wa
 * `generator/assets` - contains all assets
 * `generator/assets/app.sass` - contains the main stylesheet
 * `generator/assets/img/speakers` - contains speaker images
-* `generator/content` - content for each geek night
+* `generator/content` - content for each vodqa edition
 * `generator/layouts` - layouts for default and archive versions
 * `generator/Rules` - routing rules
 
