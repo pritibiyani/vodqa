@@ -105,8 +105,9 @@
 
     <%= render '_about_section' %>
 
+    <% if item[:agenda] %>
     <%= render '_agenda_section' %>
-
+    <% end %>
     <%= render '_location_section' %>
 
     <%= render '_archive_section' %>
